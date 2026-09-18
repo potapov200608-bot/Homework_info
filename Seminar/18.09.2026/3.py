@@ -6,3 +6,4 @@ def E(a, b):
 a, b = input().split()
 a, b = int(a), int(b)
 print(E(a, b))
+#Файд временно в ремонте :)
