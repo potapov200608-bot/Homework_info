@@ -1,5 +1,5 @@
 import numpy as np
-def MNK(x, y) -> list:
+def MNK(x: list, y: list) -> list:
     x_val = np.array(x)
     y_val = np.array(y)
     return list(np.polyfit(x_val, y_val, 1))
